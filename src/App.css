@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Chewy&display=swap");
+* {
+  scroll-behavior: smooth !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #0a4740 !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg_head {
+  background-image: url("../src/Assets/images/hero-bg.webp");
+  background-size: 100% 100% !important;
+  object-fit: cover !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-btn {
+  background-image: url("../src/Assets/images/nav-btn.webp");
+  background-size: 100% 100% !important;
+  object-fit: cover !important;
 }
-
-.App-link {
-  color: #61dafb;
+.toke_bg {
+  background-image: url("../src/Assets/images/toke-bgg.webp");
+  background-size: 100% 100% !important;
+  object-fit: cover !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.road_bg {
+  background-image: url("../src/Assets/images/road_bgg.png");
+  background-size: 100% 100% !important;
+  object-fit: cover !important;
+}
+.walking-img {
+  animation: walk 9s steps(10) infinite, forward 10s linear infinite;
 }

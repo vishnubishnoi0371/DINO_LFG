@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import About_Sec from "./Components/About_Sec";
+import Backtotop from "./Components/Backtotop";
+import Faq from "./Components/Faq";
+import My_Footer from "./Components/My_Footer";
+import My_Header from "./Components/My_Header";
+import Preload from "./Components/Preload";
+import RoadMap from "./Components/RoadMap";
+import Tokenimics from "./Components/Tokenimics";
+import Utility from "./Components/Utility";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <My_Header />
+      <About_Sec />
+      <Tokenimics />
+      <Utility />
+      <RoadMap />
+      <Faq />
+      <My_Footer />
+      <Backtotop />
+      <Preload />
     </div>
   );
 }
