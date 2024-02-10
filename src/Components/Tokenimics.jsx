@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import tree1 from "../Assets/images/toke-tree-1.webp";
-import tree2 from "../Assets/images/toke-tree-2.webp";
-import tree3 from "../Assets/images/toke-tree-3.webp";
-import tree4 from "../Assets/images/toke-tree-4.webp";
-import toke_teddy from "../Assets/images/toke-teddy.png";
-import toke_card from "../Assets/images/toke-card.webp";
-import Fullcard from "../Assets/images/toke-card-full.webp";
-import toke_gudda from "../Assets/images/toke-gudda.png";
-import toke_ep1 from "../Assets/images/toke-ep-1.png";
+import tree1 from "../Assets/images.webp/toke-tree-1.webp";
+import tree2 from "../Assets/images.webp/toke-tree-2.webp";
+import tree3 from "../Assets/images.webp/toke-tree-3.webp";
+import tree4 from "../Assets/images.webp/toke-tree-4.webp";
+import toke_teddy from "../Assets/images.png/toke-teddy.png";
+import toke_card from "../Assets/images.webp/toke-card.webp";
+import Fullcard from "../Assets/images.webp/toke-card-full.webp";
+import toke_gudda from "../Assets/images.png/toke-gudda.png";
+import toke_ep1 from "../Assets/images.png/toke-ep-1.png";
 import { Line1, Line2, Line3, Line4, Line5, Toke_ep } from "../Common_svg/icon";
 
 const Tokenimics = () => {

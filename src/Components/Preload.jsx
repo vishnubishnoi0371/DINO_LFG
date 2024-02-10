@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../Assets/images/about-text.webp";
-import gdda from "../Assets/images/toke-teddy.png";
+import logo from "../Assets/images.webp/about-text.webp";
+import gdda from "../Assets/images.png/toke-teddy.png";
 function Preload() {
   setTimeout(() => {
     document.getElementById("Preloader").classList.add("hidden");

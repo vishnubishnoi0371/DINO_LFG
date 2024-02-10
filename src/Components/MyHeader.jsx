@@ -1,14 +1,20 @@
 import React, { useState } from "react";
-import logo from "../Assets/images/page_logo.png";
-import botm_hero from "../Assets/images/hero_btm.webp";
-import text from "../Assets/images/hero-text.webp";
-import text2 from "../Assets/images/about-text.webp";
-import plane from "../Assets/images/hero-plane.webp";
-import openbtn from "../Assets/images/nav_line.svg";
-import closebtn from "../Assets/images/close-line.svg";
-import gudda from "../Assets/images/utility-gudda.png";
-import smallgudda from "../Assets/images/header_smallguda.webp";
-import { Discord, Insta, Twiter } from "../Common_svg/icon";
+import logo from "../Assets/images.png/page_logo.png";
+import botm_hero from "../Assets/images.webp/hero_btm.webp";
+import text from "../Assets/images.webp/hero-text.webp";
+import text2 from "../Assets/images.webp/about-text.webp";
+import plane from "../Assets/images.webp/hero-plane.webp";
+// import openbtn from "../Assets/images.png/nav_line.svg";
+// import closebtn from "../Assets/images.png/close-line.svg";
+import gudda from "../Assets/images.png/utility-gudda.png";
+import smallgudda from "../Assets/images.webp/header_smallguda.webp";
+import {
+  Close_line,
+  Discord,
+  Insta,
+  Nav_line,
+  Twiter,
+} from "../Common_svg/icon";
 const MyHeader = () => {
   const [show, setshow] = useState(false);
   if (show === true) {
@@ -23,14 +29,12 @@ const MyHeader = () => {
     <div className="overflow-hidden relative bg_head min-h-screen object-cover  bg-no-repeat bg-center ">
       <nav className=" nav_bg pt-4 md:pt-[28px]">
         <div className=" container py-[10px] sm:py-[15px] border-b-[4px] border-black rounded-[61px] bg-white  mx-auto max-w-[1132px] px-3">
-          <div className=" flex items-center justify-between ">
-            <div>
-              <img
-                className="ps-3 sm:ps-[24px] cursor-pointer"
-                src={logo}
-                alt="img"
-              />
-            </div>
+          <div className=" flex items-center justify-between">
+            <img
+              className="ps-3 sm:ps-[24px] cursor-pointer"
+              src={logo}
+              alt="img"
+            />
             <div className="flex justify-between gap-[136px] items-center">
               <ul
                 className={`${
@@ -123,9 +127,13 @@ const MyHeader = () => {
               }}
             >
               {show ? (
-                <img src={closebtn} alt="#" />
+                <span>
+                  <Close_line />
+                </span>
               ) : (
-                <img src={openbtn} alt="#" />
+                <span>
+                  <Nav_line />
+                </span>
               )}
             </div>
           </div>

@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import text from "../Assets/images/about-text.webp";
-import tree1 from "../Assets/images/about-tree-1.webp";
-import tree_teddy from "../Assets/images/tree-teddy.webp";
-import tree2 from "../Assets/images/about-tree-2.webp";
+import text from "../Assets/images.webp/about-text.webp";
+import tree1 from "../Assets/images.webp/about-tree-1.webp";
+import tree_teddy from "../Assets/images.webp/tree-teddy.webp";
+import tree2 from "../Assets/images.webp/about-tree-2.webp";
 
 const AboutSec = () => {
   useEffect(() => {

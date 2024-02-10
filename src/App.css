@@ -6,22 +6,22 @@ body {
   background: #0a4740 !important;
 }
 .bg_head {
-  background-image: url("../src/Assets/images/hero-bg.webp");
+  background-image: url("../src/Assets/images.webp/hero-bg.webp");
   background-size: 100% 100% !important;
   object-fit: cover !important;
 }
 .bg-btn {
-  background-image: url("../src/Assets/images/nav-btn.webp");
+  background-image: url("../src/Assets/images.webp/nav-btn.webp");
   background-size: 100% 100% !important;
   object-fit: cover !important;
 }
 .toke_bg {
-  background-image: url("../src/Assets/images/toke-bgg.webp");
+  background-image: url("../src/Assets/images.webp/toke-bgg.webp");
   background-size: 100% 100% !important;
   object-fit: cover !important;
 }
 .road_bg {
-  background-image: url("../src/Assets/images/road_bgg.png");
+  background-image: url("../src/Assets/images.png/road_bgg.png");
   background-size: 100% 100% !important;
   object-fit: cover !important;
 }

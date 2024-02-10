@@ -1,8 +1,8 @@
-import utility_uppr from "../Assets/images/utility-upp.png";
-import utility_btm from "../Assets/images/utility-btm.webp";
-import utility_gudda_1 from "../Assets/images/utility-gudda.png";
-import utility_gudda_2 from "../Assets/images/utility-gudda2.webp";
-import utility_treeep from "../Assets/images/utility-tree-ep.png";
+import utility_uppr from "../Assets/images.png/utility-upp.png";
+import utility_btm from "../Assets/images.webp/utility-btm.webp";
+import utility_gudda_1 from "../Assets/images.png/utility-gudda.png";
+import utility_gudda_2 from "../Assets/images.webp/utility-gudda2.webp";
+import utility_treeep from "../Assets/images.png/utility-tree-ep.png";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -25,13 +25,13 @@ const Utility = () => {
                 className="w-full xs_1:w-9/12 px-3"
               >
                 <p className="text-[25px] sm:text-[32px] sm:leading-[39px] font-normal !z-30  font-balsa max-w-[640px] mb-4 sm:mb-[28px] text-white">
-                  We are going to work hard in to add
+                  We are going to work hard in otder to add{" "}
                   <span className="text-[#8EC627] font-bold"> $</span>
                   <span className="text-[#FBA11D] font-bold">D</span>
                   <span className="text-[#23AAAC] font-bold">I</span>
                   <span className="text-[#D45B07] font-bold">N</span>
-                  <span className="text-[#FB5352] font-bold">O</span> main
-                  platforms as a form of payment
+                  <span className="text-[#FB5352] font-bold">O</span> to main
+                  platforms a form of payment
                 </p>
                 <p className="text-[25px] sm:text-[32px] sm:leading-[39px] lg:text-nowrap font-normal  font-balsa max-w-[695px] text-white">
                   You will be able to buy a lot of things with{" "}
@@ -44,7 +44,7 @@ const Utility = () => {
               </div>
               <div className="w-full xs_1:w-3/12 px-3">
                 <img
-                  className="absolute opacity-[0.3] md:opacity-[1] z-10 bottom-0 right-[2%] md:max-w-[295px] md:max-h-[360px]  max-w-[205px] max-h-[290px] animate-scat"
+                  className="absolute opacity-[0.3] md:opacity-[1] z-10 bottom-0 right-[0%] md:max-w-[295px] md:max-h-[360px]  max-w-[205px] max-h-[290px] animate-scat"
                   src={utility_gudda_1}
                   alt="gudda"
                 />

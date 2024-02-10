@@ -1,7 +1,7 @@
 import React from "react";
-import footertext from "../Assets/images/about-text.webp";
-import ft_img from "../Assets/images/ft-bg.webp";
-import ft_gudda from "../Assets/images/utility-gudda.png";
+import footertext from "../Assets/images.webp/about-text.webp";
+import ft_img from "../Assets/images.webp/ft-bg.webp";
+import ft_gudda from "../Assets/images.png/utility-gudda.png";
 import { Discord2, Insta2, Twiter2 } from "../Common_svg/icon";
 
 const MyFooter = () => {

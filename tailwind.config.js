@@ -26,12 +26,12 @@ module.exports = {
         scat: "gudda1 5s infinite linear",
         cycle: "gudda2 5s infinite linear",
         gudda: "tokegudda 12s infinite ",
-        fttr: "fttrgudda 8s infinite ",
+        fttr: "fttrgudda 12s infinite ",
         resg: "res_headg 5s infinite ",
         fttrsmall: "fttrguddasmall 8s infinite ",
         load: "loader 3s infinite linear",
-        headgudda: "herogudda 6s linear infinite ",
-        headgudda2: "herogudda2 6s linear infinite ",
+        headgudda: "herogudda 12s linear infinite ",
+        headgudda2: "herogudda2 10s linear infinite ",
       },
       keyframes: {
         herogudda: {

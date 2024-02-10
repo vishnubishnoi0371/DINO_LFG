@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Faq_uppr from "../Assets/images/faq-uppr.webp";
+import Faq_uppr from "../Assets/images.webp/faq-uppr.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {

@@ -1,6 +1,6 @@
-import map from "../Assets/images/RoadMapimg.webp";
-import plane from "../Assets/images/road-plane.webp";
-import gudda from "../Assets/images/road-gudda.webp";
+import map from "../Assets/images.webp/RoadMapimg.webp";
+import plane from "../Assets/images.webp/road-plane.webp";
+import gudda from "../Assets/images.webp/road-gudda.webp";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
