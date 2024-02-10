@@ -6,7 +6,7 @@ import tree1 from "../Assets/images/about-tree-1.webp";
 import tree_teddy from "../Assets/images/tree-teddy.webp";
 import tree2 from "../Assets/images/about-tree-2.webp";
 
-const About_Sec = () => {
+const AboutSec = () => {
   useEffect(() => {
     AOS.init({ once: true });
   }, []);
@@ -37,19 +37,20 @@ const About_Sec = () => {
             <p
               data-aos="zoom-in"
               data-aos-duration="2000"
-              className="font-normal z-10 text-white max-w-[560px] text-base sm:text-[24px] sm:leading-[29px] font-balsa text-center mb-[10px]"
+              className="font-normal z-30 text-white max-w-[560px] text-base sm:text-[24px] sm:leading-[29px] font-balsa text-center mb-[10px]"
             >
               Biggest problem of meme coins is lack of utility and usecase,
-              <span className="text-[#8EC627]">$</span>
-              <span className="text-[#FBA11D]">D</span>
-              <span className="text-[#23AAAC]">I</span>
-              <span className="text-[#D45B07]">N</span>
-              <span className="text-[#FB5352]">O</span> is going to fix it.{" "}
+              <span className="text-[#8EC627] font-bold">$</span>
+              <span className="text-[#FBA11D] font-bold">D</span>
+              <span className="text-[#23AAAC] font-bold">I</span>
+              <span className="text-[#D45B07] font-bold">N</span>
+              <span className="text-[#FB5352] font-bold">O</span> is going to
+              fix it.{" "}
             </p>
             <p
               data-aos="zoom-in"
               data-aos-duration="2000"
-              className="font-normal z-10 text-white text-base sm:text-[24px] sm:leading-[29px] font-balsa text-center mb-[14px] max-w-[522px]"
+              className="font-normal z-40 text-white text-base sm:text-[24px] sm:leading-[29px] font-balsa text-center mb-[14px] max-w-[522px]"
             >
               We want to bring a lot of usecases and utility to $DINO holders,
               just sit back and relax.
@@ -57,7 +58,7 @@ const About_Sec = () => {
             <p
               data-aos="zoom-in"
               data-aos-duration="2000"
-              className="font-normal z-10 text-white text-base sm:text-[24px] sm:leading-[29px] font-balsa text-center  mb-[24px] max-w-[592px]"
+              className="font-normal z-40 text-white text-base sm:text-[24px] sm:leading-[29px] font-balsa text-center  mb-[24px] max-w-[592px]"
             >
               In $DINO, we want to build a very strong community, that’s why we
               are going to have a lot of games and crypto tips in our Telegram
@@ -76,7 +77,7 @@ const About_Sec = () => {
           alt=""
         />
         <img
-          className="absolute  opacity-[0.6] md:opacity-[1] bottom-[-12%] animate-flip z-40 md:bottom-[-20%] right-3 max-w-[100px] md:max-w-[170px] max-h-[100px] md:max-h-[210px]"
+          className="absolute  opacity-[0.6] md:opacity-[1] bottom-[-12%] animate-flip z-30 md:bottom-[-20%] right-3 max-w-[100px] md:max-w-[170px] max-h-[100px] md:max-h-[210px]"
           src={tree_teddy}
           alt=""
         />
@@ -84,4 +85,4 @@ const About_Sec = () => {
     </div>
   );
 };
-export default About_Sec;
+export default AboutSec;

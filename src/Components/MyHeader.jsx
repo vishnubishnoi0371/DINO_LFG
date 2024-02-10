@@ -9,7 +9,7 @@ import closebtn from "../Assets/images/close-line.svg";
 import gudda from "../Assets/images/utility-gudda.png";
 import smallgudda from "../Assets/images/header_smallguda.webp";
 import { Discord, Insta, Twiter } from "../Common_svg/icon";
-const My_Header = () => {
+const MyHeader = () => {
   const [show, setshow] = useState(false);
   if (show === true) {
     document.body.classList.add("max-lg:overflow-hidden");
@@ -148,7 +148,7 @@ const My_Header = () => {
               alt=""
             />
             <img
-              className="block md:hidden mx-auto md:max-w-[398px] md:max-h-[316px] max-w-[270px] mb-6 max-h-[216px]"
+              className="block md:hidden mx-auto md:max-w-[398px] md:max-h-[316px] max-w-[290px] mb-6 max-h-[226px]"
               src={text2}
               alt=""
             />
@@ -166,7 +166,7 @@ const My_Header = () => {
         alt=""
       />
       <img
-        className="absolute object-cover z-10 bottom-[18%] max-w-[80px] max-h-[115px]  md:max-w-[130px] md:max-h-[165px] animate-headgudda  right-[45%]"
+        className="absolute object-cover z-10 bottom-[17%] max-w-[80px] max-h-[115px]  md:max-w-[130px] md:max-h-[165px]  animate-headgudda2 md:animate-headgudda right-[30%]  md:right-[45%]"
         src={smallgudda}
         alt=""
       />
@@ -174,4 +174,4 @@ const My_Header = () => {
   );
 };
 
-export default My_Header;
+export default MyHeader;

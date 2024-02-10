@@ -29,14 +29,20 @@ module.exports = {
         fttr: "fttrgudda 8s infinite ",
         resg: "res_headg 5s infinite ",
         fttrsmall: "fttrguddasmall 8s infinite ",
-        load: "loader 2s infinite linear",
+        load: "loader 3s infinite linear",
         headgudda: "herogudda 6s linear infinite ",
+        headgudda2: "herogudda2 6s linear infinite ",
       },
       keyframes: {
         herogudda: {
-          "0%": { transform: "translateX(0%)" },
-          "50%": { transform: "translateX(300%)" },
-          "100%": { transform: "translateX(0%)" },
+          "0%": { transform: "translateX(0%)rotate(30deg)" },
+          "50%": { transform: "translateX(320%)rotateY(40deg)" },
+          "100%": { transform: "translateX(0%)rotate(40deg)" },
+        },
+        herogudda2: {
+          "0%": { transform: "translateX(0%)rotate(40deg)" },
+          "50%": { transform: "translateX(110%)rotateY(50deg)" },
+          "100%": { transform: "translateX(0%)rotate(40deg)" },
         },
         caramdice: {
           "0%": { transform: "rotate(360deg)" },
@@ -47,17 +53,15 @@ module.exports = {
           "100%": { transform: "translateX(0%)" },
         },
         loader: {
-          "0%": { transform: "translateX(0%)" },
-          "20%": { transform: "translateX(400%)" },
-          "40%": { transform: "translateY(-200%)" },
-          "50%": { transform: "translateX(0%)" },
-          "80%": { transform: "translateY(-300%)" },
-          "100%": { transform: "translateX(0%)" },
+          "0%": { transform: "translateX(-40%)" },
+          "50%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-150%)" },
+          // "100%": { transform: "translateX(0%)" },
         },
 
         fttrgudda: {
           "0%": { transform: "translateX(0%)" },
-          "100%": { transform: "translateX(-750%)" },
+          "100%": { transform: "translateX(-750%)rotate(30deg)" },
         },
         res_headg: {
           "0%": { transform: "translateX(0%)" },

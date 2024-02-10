@@ -4,7 +4,7 @@ import ft_img from "../Assets/images/ft-bg.webp";
 import ft_gudda from "../Assets/images/utility-gudda.png";
 import { Discord2, Insta2, Twiter2 } from "../Common_svg/icon";
 
-const My_Footer = () => {
+const MyFooter = () => {
   return (
     <div className="bg-[#0a4740] relative mt-[-2px] pt-10 md:pt-[125px]">
       <div className="pb-[150px] md:pb-[300px] flex flex-col items-center justify-center">
@@ -51,4 +51,4 @@ const My_Footer = () => {
   );
 };
 
-export default My_Footer;
+export default MyFooter;
