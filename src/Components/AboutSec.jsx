@@ -11,7 +11,7 @@ const AboutSec = () => {
     AOS.init({ once: true });
   }, []);
   return (
-    <div>
+    <>
       <div id="about" className="bg-[#09655a] relative pt-6 md:pt-[88px]">
         <div className=" container mx-auto max-w-[1132px] px-3 ">
           <div className="flex justify-center">
@@ -82,7 +82,7 @@ const AboutSec = () => {
           alt=""
         />
       </div>
-    </div>
+    </>
   );
 };
 export default AboutSec;

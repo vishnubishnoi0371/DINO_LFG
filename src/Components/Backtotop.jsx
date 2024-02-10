@@ -15,7 +15,7 @@ const Backtotop = () => {
     }
   });
   return (
-    <div>
+    <>
       {backtotop ? (
         <button
           onClick={runTop}
@@ -43,7 +43,7 @@ const Backtotop = () => {
       ) : (
         ""
       )}
-    </div>
+    </>
   );
 };
 

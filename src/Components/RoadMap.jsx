@@ -9,7 +9,7 @@ const RoadMap = () => {
     AOS.init({ once: true });
   }, []);
   return (
-    <div>
+    <>
       <div id="roadmap" className=" relative mt-[-2px] bg-[#09655a]">
         <div className=" relative container mx-auto max-w-[1132px] px-3 overflow-hidden">
           <h2
@@ -24,11 +24,11 @@ const RoadMap = () => {
             data-aos-duration="2000"
             className="flex items-center gap-[25px] lg:gap-[45px] xl:gap-[60px] xs_1:mt-[-80px] ps-[30px] sm:ps-0 mt-[-100px] md:mt-[-50px] lg:mt-0 sm:pb-[100px] md:pb-[60px] lg:pb-[170px]"
           >
-            <p className=" text-[70px] sm:text-[120px] md:text-[150px] lg:text-[200px] text-[#FBA11D] font-normal  font-chewy leading-[261px]">
+            <p className=" text-[75px] sm:text-[120px] md:text-[150px] lg:text-[200px] text-[#FBA11D] font-normal  font-chewy leading-[261px]">
               01
             </p>
-            <ul className="max-w-[440px] md:max-w-[630px]">
-              <li className="text-[12px] md:text-xl xs_1:max-w-[200px] sm:max-w-[300px] md:max-w-[400px] z-50 sm:text-base font-normal  font-balsa text-white list-disc mb-0 sm:mb-2 md:mb-4">
+            <ul className="max-w-[440px] ps-3 xs_1:ps-0 md:max-w-[630px]">
+              <li className="text-[12px] md:text-xl max-w-[200px] xs_1:max-w-[200px] sm:max-w-[300px] md:max-w-[400px] z-50 sm:text-base font-normal  font-balsa text-white list-disc mb-0 sm:mb-2 md:mb-4">
                 Launch $DINO & Website & Social Media.
               </li>
               <li className="text-[12px] md:text-xl sm:text-base font-normal  font-balsa text-white list-disc mb-0 sm:mb-2 md:mb-4">
@@ -121,7 +121,7 @@ const RoadMap = () => {
           alt=""
         />
       </div>
-    </div>
+    </>
   );
 };
 

@@ -77,7 +77,7 @@ const MyHeader = () => {
                 <div className="block xs_1:hidden">
                   <div className="flex items-center gap-3">
                     <div className="flex items-center gap-2">
-                      <button className="font-normal bg-btn bg-no-repeat bg-center p-[11px_36px]  text-lg font-chewy  text-[#000000] ">
+                      <button className="font-normal text-nowrap bg-btn bg-no-repeat bg-center p-[11px_36px]  text-lg font-chewy  text-[#000000] ">
                         Join Now
                       </button>
                     </div>
@@ -85,7 +85,7 @@ const MyHeader = () => {
                 </div>
               </ul>
               <div className="flex items-center gap-3">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1 sm:gap-2">
                   <a
                     href="https://twitter.com/login"
                     target="blank"
@@ -109,7 +109,7 @@ const MyHeader = () => {
                     <Insta />
                   </a>
 
-                  <button className="font-normal hidden xs_1:block duration-500  bg-btn bg-no-repeat bg-center p-[11px_36px]  text-lg font-chewy hover:text-white pb-4 text-[#000000] ">
+                  <button className="font-normal text-nowrap hidden xs_1:block duration-500  bg-btn bg-no-repeat bg-center p-[11px_36px]  text-lg font-chewy hover:text-white pb-4 text-[#000000] ">
                     Join Now
                   </button>
                 </div>

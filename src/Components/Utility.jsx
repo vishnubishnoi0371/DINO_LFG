@@ -11,7 +11,7 @@ const Utility = () => {
     AOS.init({ once: true });
   }, []);
   return (
-    <div>
+    <>
       <div className="relative  mt-[-3px] bg-[#0a4740] overflow-hidden">
         <div className=" container mx-auto max-w-[1014px] px-3 py-[70px] md:py-[200px]">
           <h2 className="text-[42px] sm:text-[64px] font-normal font-chewy sm:leading-[84px] text-white text-center mb-3 md:mb-[158px]">
@@ -24,9 +24,9 @@ const Utility = () => {
                 data-aos-duration="2000"
                 className="w-full xs_1:w-9/12 px-3"
               >
-                <p className="text-[25px] sm:text-[32px] sm:leading-[39px] font-normal !z-30  font-balsa max-w-[680px] mb-4 sm:mb-[28px] text-white">
+                <p className="text-[25px] sm:text-[32px] sm:leading-[39px] font-normal !z-30  font-balsa max-w-[640px] mb-4 sm:mb-[28px] text-white">
                   We are going to work hard in to add
-                  <span className="text-[#8EC627] font-bold">$</span>
+                  <span className="text-[#8EC627] font-bold"> $</span>
                   <span className="text-[#FBA11D] font-bold">D</span>
                   <span className="text-[#23AAAC] font-bold">I</span>
                   <span className="text-[#D45B07] font-bold">N</span>
@@ -75,7 +75,7 @@ const Utility = () => {
           </div>
         </div>
         <img
-          className="absolute object-cover top-0 w-100"
+          className="absolute object-cover w-full top-0 w-100"
           src={utility_uppr}
           alt="ellipse"
         />
@@ -90,7 +90,7 @@ const Utility = () => {
           alt="ellipse"
         />
       </div>
-    </div>
+    </>
   );
 };
 
