@@ -46,7 +46,7 @@ const MyHeader = () => {
                   <a
                     onClick={Movement}
                     href="#about"
-                    className=" font-normal text-lg font-chewy text-[#000000]  inline leading-[23.50%]"
+                    className=" font-normal text-lg font-chewy text-[#000000]  duration-300 relative after:absolute after:bg-[#000] after:w-0 after:h-[3px] after:bottom-[-2px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%] leading-[23.50%]"
                   >
                     About
                   </a>
@@ -55,7 +55,7 @@ const MyHeader = () => {
                   <a
                     onClick={Movement}
                     href="#toke"
-                    className=" font-normal text-lg font-chewy text-[#000000]  inline leading-[23.50%]"
+                    className=" font-normal text-lg font-chewy text-[#000000]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#000] after:w-0 after:h-[3px] after:bottom-[-2px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%]"
                   >
                     Tokenomic
                   </a>
@@ -64,7 +64,7 @@ const MyHeader = () => {
                   <a
                     onClick={Movement}
                     href="#roadmap"
-                    className="  font-normal text-lg font-chewy text-[#000000]  inline leading-[23.50%]"
+                    className="  font-normal text-lg font-chewy text-[#000000]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#000] after:w-0 after:h-[3px] after:bottom-[-2px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%]"
                   >
                     Roadmap
                   </a>
@@ -73,7 +73,7 @@ const MyHeader = () => {
                   <a
                     onClick={Movement}
                     href="#faq"
-                    className="  font-normal text-lg font-chewy text-[#000000]  inline leading-[23.50%]"
+                    className="  font-normal text-lg font-chewy text-[#000000]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#000] after:w-0 after:h-[3px] after:bottom-[-2px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%]"
                   >
                     Faq{" "}
                   </a>

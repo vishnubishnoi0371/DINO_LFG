@@ -17,21 +17,21 @@ const MyFooter = () => {
           <a
             href="https://www.instagram.com/"
             target="blank"
-            className="hover:translate-y-[-8px]  transition-all duration-500"
+            className="hover:translate-y-[-8px]  cursor-pointer transition-all duration-500"
           >
             <Insta2 />
           </a>
           <a
             href="https://support.discord.com/hc/en-us/community/posts/360056220432-Login"
             target="blank"
-            className="hover:translate-y-[-8px]  transition-all duration-500"
+            className="hover:translate-y-[-8px] cursor-pointer  transition-all duration-500"
           >
             <Discord2 />
           </a>
           <a
             href="https://twitter.com/login"
             target="blank"
-            className="hover:translate-y-[-8px]  transition-all duration-500"
+            className="hover:translate-y-[-8px] cursor-pointer  transition-all duration-500"
           >
             <Twiter2 />
           </a>

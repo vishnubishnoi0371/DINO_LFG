@@ -18,7 +18,7 @@ const AboutSec = () => {
             <p
               data-aos="zoom-in"
               data-aos-duration="2000"
-              className="text-white flex items-center gap-2 font-normal font-chewy text-[64px] leading-[84px] mb-5 md:mb-[48px]"
+              className="text-white flex items-center gap-2 font-normal font-chewy text-[52px] md:text-[64px] leading-[84px] mb-5 md:mb-[48px]"
             >
               About
               <span>
