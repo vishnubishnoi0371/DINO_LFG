@@ -2,14 +2,11 @@ import React from "react";
 import logo from "../Assets/images.webp/about-text.webp";
 import gdda from "../Assets/images.png/toke-teddy.png";
 function Preload() {
-  setTimeout(() => {
-    document.getElementById("Preloader").classList.add("hidden");
-    document.body.classList.remove("!overflow-hidden");
-  }, 4000);
+  
   return (
     <>
       <div
-        id="Preloader"
+        id="Preloaer"
         className="h-screen bg-[#00141B] flex flex-col gap-4 justify-center items-center fixed top-0 left-0 w-full z-50 "
       >
         <div className="flex items-start justify-start">

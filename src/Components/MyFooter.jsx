@@ -6,10 +6,10 @@ import { Discord2, Insta2, Twiter2 } from "../Common_svg/icon";
 
 const MyFooter = () => {
   return (
-    <div className="bg-[#0a4740] relative mt-[-2px] pt-10 md:pt-[125px]">
+    <div className="bg-[#0a4740] relative mt-[-2px] pt-6 md:pt-[125px]">
       <div className="pb-[150px] md:pb-[300px] flex mx-auto px-3 flex-col items-center justify-center">
         <img className="mb-5 md:mb-[33px] " src={footertext} alt="" />
-        <p className="text-base font-normal max-w-[376px] leading-[17px] text-center text-white mb-5 md:mb-[33px]">
+        <p className="text-base font-normal max-w-[376px] md:leading-[17px] text-center text-white mb-5 md:mb-[33px]">
           Sed tempus pretium est, vestibulum dapibus mauris viverra id.
           Curabitur feugiat porta lorem,
         </p>

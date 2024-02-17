@@ -25,7 +25,7 @@ const Tokenimics = () => {
         <h2
           data-aos="zoom-in"
           data-aos-duration="2000"
-          className="text-white font-normal font-chewy text-[40px] sm:text-[64px] text-center z-30 leading-[84px] mb-1 md:mb-[75px]"
+          className="text-white font-normal font-chewy text-[42px] sm:text-[64px] text-center z-30 leading-[84px] mb-1 md:mb-[75px]"
         >
           Tokenomics
         </h2>
@@ -48,10 +48,10 @@ const Tokenimics = () => {
           <div
             data-aos="zoom-in"
             data-aos-duration="2000"
-            className="absolute  flex  xs_2:gap-2 lg:gap-4 top-[23%] left-[-2%] xs:top-[28%] xs:left-[0%] xxs:top-[28%]  xxs:left-[5%] xs_2:top-[28%]  xs_2:left-[10%] sm:top-[28%]  sm:left-[14%]  md:top-[28%]  md:left-[8%] lg:top-[39%] xl:top-[32%] lg:left-[5%] xl:left-[0%]"
+            className="absolute  flex  xs_2:gap-2 lg:gap-4 top-[23%] left-[-2%] xs:top-[28%] xs:left-[-3%] xxs:top-[28%]  xxs:left-[5%] xs_2:top-[28%]  xs_2:left-[10%] sm:top-[28%]  sm:left-[14%]  md:top-[28%]  md:left-[8%] lg:top-[39%] xl:top-[32%] lg:left-[5%] xl:left-[0%]"
           >
             <div>
-              <p className="text-[14px] sm:text-xl lg:text-[32px] font-normal md:leading-[39px] font-balsa text-[#FBA11D]">
+              <p className="text-base sm:text-xl lg:text-[32px] font-normal md:leading-[39px] font-balsa text-[#FBA11D]">
                 333,333,333
               </p>
               <p className="text-[12px] sm:text-base lg:text-[24px] font-normal font-balsa md:leading-[34px] text-end text-white">
@@ -65,12 +65,12 @@ const Tokenimics = () => {
           <div
             data-aos="zoom-in"
             data-aos-duration="2000"
-            className="absolute  xs_2:gap-2 lg:gap-4 flex  top-[18%]  right-[-5%] xs:top-[28%]  xs:right-[0%] xxs:top-[28%]  xxs:right-[4%]  xs_2:top-[28%]  xs_2:right-[8%]  sm:top-[28%]  sm:right-[18%] md:top-[28%]  md:right-[0%]  lg:top-[39%] xl:top-[32%] lg:right-[3%] xl:right-[0%]"
+            className="absolute  xs_2:gap-2 lg:gap-4 flex  top-[18%]  right-[-7%] xs:top-[28%]  xs:right-[-4%] xxs:top-[28%]  xxs:right-[4%]  xs_2:top-[28%]  xs_2:right-[8%]  sm:top-[28%]  sm:right-[18%] md:top-[28%]  md:right-[0%]  lg:top-[39%] xl:top-[32%] lg:right-[3%] xl:right-[0%]"
           >
             <span>
               <Line5 />
             </span>
-            <p className="text-[14px] sm:text-xl lg:text-[32px] max-w-[90px] xs_2max-w-[130px] md:max-w-[210px] font-normal md:leading-[39px] font-balsa text-[#8EC627]">
+            <p className="text-base sm:text-xl lg:text-[32px] max-w-[90px] xs_2max-w-[130px] md:max-w-[210px] font-normal md:leading-[39px] font-balsa text-[#8EC627]">
               Liquidity lock for 1 year{" "}
             </p>
           </div>
@@ -80,7 +80,7 @@ const Tokenimics = () => {
             className="absolute flex  xs_2:gap-2 lg:gap-4 bottom-[0%]  left-[3%] xs:bottom-[0%]  xs:left-[3%] xxs:bottom-[0%]  xxs:left-[10%] xs_2:bottom-[-10%]  xs_2:left-[14%] sm:bottom-[-13%]  sm:left-[18%] md:bottom-[-7%]  md:left-[12%] lg:bottom-[-7%]  xl:bottom-[1%] lg:left-[12%] xl:left-[4%]"
           >
             <div>
-              <p className="text-[14px] sm:text-xl lg:text-[32px] max-w-[210px] font-normal md:leading-[39px] font-balsa text-[#23AAAC]">
+              <p className="text-base sm:text-xl lg:text-[32px] max-w-[210px] font-normal md:leading-[39px] font-balsa text-[#23AAAC]">
                 95% Uniswa <span className="block">5% Marketing</span>
               </p>
               <p className="text-[12px] sm:text-base lg:text-[24px] font-normal font-balsa md:leading-[34px] text-end text-white">
@@ -99,7 +99,7 @@ const Tokenimics = () => {
             <span>
               <Line4 />
             </span>
-            <p className="text-[14px] sm:text-xl lg:text-[32px] font-normal md:leading-[39px] font-balsa text-[#FB5352]">
+            <p className="text-base sm:text-xl lg:text-[32px] font-normal md:leading-[39px] font-balsa text-[#FB5352]">
               No Mint Function{" "}
             </p>
           </div>
@@ -112,7 +112,7 @@ const Tokenimics = () => {
               <Line3 />
             </span>
 
-            <p className="text-[14px] sm:text-xl lg:text-[32px] max-w-[210px] font-normal leading-[39px] font-balsa text-[#D45B07]">
+            <p className="text-base sm:text-xl lg:text-[32px] max-w-[210px] font-normal leading-[39px] font-balsa text-[#D45B07]">
               No Tax{" "}
             </p>
           </div>

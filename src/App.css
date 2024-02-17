@@ -7,8 +7,15 @@ body {
 }
 .bg_head {
   background-image: url("../src/Assets/images.webp/hero-bg.webp");
-  background-size: 100% 100% !important;
   object-fit: cover !important;
+  object-fit: cover !important;
+}
+@media (min-width: 768px) {
+  .bg_head {
+    background-image: url("../src/Assets/images.webp/hero-bg.webp");
+    background-size: 100% 100% !important;
+    object-fit: cover !important;
+  }
 }
 .bg-btn {
   background-image: url("../src/Assets/images.webp/nav-btn.webp");

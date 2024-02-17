@@ -14,15 +14,15 @@ const AboutSec = () => {
     <>
       <div id="about" className="bg-[#09655a] relative pt-6 md:pt-[88px]">
         <div className=" container mx-auto max-w-[1132px] px-3 ">
-          <div className="flex justify-center">
+          <div className="flex !justify-center">
             <p
               data-aos="zoom-in"
               data-aos-duration="2000"
-              className="text-white flex items-center gap-2 font-normal font-chewy text-[52px] md:text-[64px] leading-[84px] mb-5 md:mb-[48px]"
+              className="text-white flex items-center gap-2 font-normal font-chewy text-[42px] md:text-[64px] leading-[84px] mb-5 md:mb-[48px]"
             >
               About
               <span>
-                <img src={text} alt="" />
+                <img className="max-[500px]:w-[70%]" src={text} alt="" />
               </span>
             </p>
           </div>

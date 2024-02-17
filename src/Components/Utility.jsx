@@ -13,8 +13,8 @@ const Utility = () => {
   return (
     <>
       <div className="relative  mt-[-3px] bg-[#0a4740] overflow-hidden">
-        <div className=" container mx-auto max-w-[1014px] px-3 py-[70px] md:py-[200px]">
-          <h2 className="text-[42px] sm:text-[64px] font-normal font-chewy sm:leading-[84px] text-white text-center mb-3 md:mb-[158px]">
+        <div className=" container mx-auto max-w-[1014px] px-3 py-[40px] sm:py-[70px] md:py-[200px]">
+          <h2 className="text-[42px] sm:text-[64px] font-normal font-chewy sm:leading-[84px] text-white text-center mb-5 md:mb-[158px]">
             Utility and Usecase
           </h2>
           <div className="max-w-[1014px] z-30 py-4 sm:py-[30px] md:py-[62px] px-5 sm:px-[40px] border relative rounded-[20px] border-white bg-[#09655a] mb-[20px] sm:mb-[30px] md:mb-[125px]">
@@ -24,7 +24,7 @@ const Utility = () => {
                 data-aos-duration="2000"
                 className="w-full xs_1:w-9/12 px-3"
               >
-                <p className="text-[25px] sm:text-[32px] sm:leading-[39px] font-normal !z-30  font-balsa max-w-[640px] mb-4 sm:mb-[28px] text-white">
+                <p className="text-base sm:text-[32px] sm:leading-[39px] font-normal !z-30  font-balsa max-w-[640px] mb-4 sm:mb-[28px] text-white">
                   We are going to work hard in otder to add{" "}
                   <span className="text-[#8EC627] font-bold"> $</span>
                   <span className="text-[#FBA11D] font-bold">D</span>
@@ -33,7 +33,7 @@ const Utility = () => {
                   <span className="text-[#FB5352] font-bold">O</span> to main
                   platforms a form of payment
                 </p>
-                <p className="text-[25px] sm:text-[32px] sm:leading-[39px] lg:text-nowrap font-normal  font-balsa max-w-[695px] text-white">
+                <p className="text-base sm:text-[32px] sm:leading-[39px] lg:text-nowrap font-normal  font-balsa max-w-[695px] text-white">
                   You will be able to buy a lot of things with{" "}
                   <span className="text-[#8EC627] font-bold">$</span>
                   <span className="text-[#FBA11D] font-bold">D</span>
@@ -44,7 +44,7 @@ const Utility = () => {
               </div>
               <div className="w-full xs_1:w-3/12 px-3">
                 <img
-                  className="absolute opacity-[0.3] md:opacity-[1] z-10 bottom-0 right-[0%] md:max-w-[295px] md:max-h-[360px]  max-w-[205px] max-h-[290px] animate-scat"
+                  className="absolute opacity-[0.3] md:opacity-[1] z-10 bottom-0 right-[0%] md:max-w-[295px] md:max-h-[360px]  max-w-[155px] max-h-[190px] animate-scat"
                   src={utility_gudda_1}
                   alt="gudda"
                 />
@@ -55,7 +55,7 @@ const Utility = () => {
             <div className="flex flex-row items-center justify-end flex-wrap  -mx-3">
               <div className="w-full xs_1:w-8/12 px-3">
                 <img
-                  className="absolute opacity-[0.3] md:opacity-[1]  bottom-0 left-[0%] sm:max-w-[205px] sm:max-h-[195px] md:max-w-[345px] md:max-h-[435px] max-w-[135px] max-h-[150px]  animate-cycle"
+                  className="absolute opacity-[0.3] md:opacity-[1]  bottom-0 left-[0%] sm:max-w-[205px] sm:max-h-[195px] md:max-w-[345px] md:max-h-[435px] max-w-[105px] max-h-[100px]  animate-cycle"
                   src={utility_gudda_2}
                   alt="gudda"
                 />
@@ -66,7 +66,7 @@ const Utility = () => {
                   data-aos-duration="2000"
                   className="flex justify-end items-end"
                 >
-                  <p className="text-[25px] sm:text-[32px] z-10 md:leading-[39px] font-normal text-start md:text-end  font-balsa max-w-[720px] mb-[28px] text-white">
+                  <p className="text-base sm:text-[32px] z-10 md:leading-[39px] font-normal text-start md:text-end  font-balsa max-w-[720px] mb-[28px] text-white">
                     We are going to staking and byback/ burning mechanism
                   </p>
                 </div>

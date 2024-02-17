@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import AboutSec from "./Components/AboutSec";
 import Backtotop from "./Components/Backtotop";
@@ -10,17 +11,32 @@ import Tokenimics from "./Components/Tokenimics";
 import Utility from "./Components/Utility";
 
 function App() {
+  const [first, setfirst] = useState(true);
+  useEffect(() => {
+    setfirst(true);
+    setTimeout(() => {
+      setfirst(false);
+    }, 3000);
+  }, []);
+
   return (
-    <div className="App">
-      <MyHeader />
-      <AboutSec />
-      <Tokenimics />
-      <Utility />
-      <RoadMap />
-      <Faq />
-      <MyFooter />
-      <Backtotop />
-      <Preload />
+    <div>
+      {first ? (
+        <>
+          <Preload />
+        </>
+      ) : (
+        <div className="App">
+          <MyHeader />
+          <AboutSec />
+          <Tokenimics />
+          <Utility />
+          <RoadMap />
+          <Faq />
+          <MyFooter />
+          <Backtotop />
+        </div>
+      )}
     </div>
   );
 }

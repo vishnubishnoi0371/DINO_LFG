@@ -48,11 +48,11 @@ const Faq = () => {
         className="relative z-[6] bg-[#0a4740] mt-[-2px] max-sm:mt-[-60px]"
       >
         <div className="max-w-[826px] mx-auto px-3 relative z-[1] md:pt-[150px] pb-5 md:pb-[100px]">
-          <div className="pt-[90px] md:pt-[130px]   pb-[12px]">
+          <div className="pt-[40px] md:pt-[130px]   pb-[12px]">
             <h2
               data-aos="zoom-in"
               data-aos-duration="2000"
-              className="text-[64px]  font-chewy leading-[84px] font-normal text-center mb-6 md:mb-[61px] text-white"
+              className="sm:text-[64px] text-[42px] font-chewy leading-[84px] font-normal text-center mb-4 md:mb-[61px] text-white"
             >
               Faq{" "}
             </h2>
@@ -69,7 +69,7 @@ const Faq = () => {
               >
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
-              <AccordionBody className="font-balsa sm:text-base text-[12px] !pt-0  font-bold ps-6 md:ps-[50px] pe-5 md:pe-[50px]  leading-[160%]\\\  text-[#fff] max-w-[880px] mt-[-1px] pb-2">
+              <AccordionBody className="font-balsa sm:text-base text-[12px] !pt-0  font-normal ps-6 md:ps-[50px] pe-5 md:pe-[50px]  leading-[160%]\\\  text-[#fff] max-w-[880px] mt-[-1px] pb-2">
                 sapien vel cursus ultricies?Maecenas laoreet, sapien vel cursus
                 ultricies?Maecenas laoreet, Maecenas laoreet, sapien vel cursus
                 ultricies? Maecenas laoreet, sapien vel cursus
@@ -90,7 +90,7 @@ const Faq = () => {
                 {" "}
                 Maecenas laoreet, sapien vel cursus ultricies?{" "}
               </AccordionHeader>
-              <AccordionBody className="font-balsa text-[12px] sm:text-base !pt-0 md:text-[16px] font-medium leading-[160%] ps-6 md:ps-[50px] pe-5 md:pe-[50px]  text-[#fff] max-w-[880px] mt-[-1px] pb-2">
+              <AccordionBody className="font-balsa text-[12px] sm:text-base !pt-0 md:text-[16px] font-normal leading-[160%] ps-6 md:ps-[50px] pe-5 md:pe-[50px]  text-[#fff] max-w-[880px] mt-[-1px] pb-2">
                 sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
                 ultricies? Maecenas laoreet, Maecenas laoreet, sapien vel cursus
                 ultricies? Maecenas laoreet, sapien vel cursus ultricies?
@@ -110,7 +110,7 @@ const Faq = () => {
                 {" "}
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
-              <AccordionBody className="font-balsa text-[12px] sm:text-base !pt-0 md:text-[16px] font-medium leading-[160%] ps-6 md:ps-[50px] pe-5 md:pe-[50px] text-[#fff] max-w-[880px] mt-[-1px] pb-2  ">
+              <AccordionBody className="font-balsa text-[12px] sm:text-base !pt-0 md:text-[16px] font-normal leading-[160%] ps-6 md:ps-[50px] pe-5 md:pe-[50px] text-[#fff] max-w-[880px] mt-[-1px] pb-2  ">
                 sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
                 ultricies? Maecenas laoreet, Maecenas laoreet, sapien vel cursus
                 ultricies? Maecenas laoreet, sapien vel cursus ultricies?
@@ -129,7 +129,7 @@ const Faq = () => {
               >
                 Maecenas laoreet, sapien vel cursus ultricies?{" "}
               </AccordionHeader>
-              <AccordionBody className="font-balsa text-[12px] sm:text-base !pt-0  md:text-[16px] font-medium leading-[160%] ps-6 md:ps-[50px] pe-5 md:pe-[50px] text-[#fff] max-w-[880px] mt-[-1px] pb-2  ">
+              <AccordionBody className="font-balsa text-[12px] sm:text-base !pt-0  md:text-[16px] font-normal leading-[160%] ps-6 md:ps-[50px] pe-5 md:pe-[50px] text-[#fff] max-w-[880px] mt-[-1px] pb-2  ">
                 sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
                 ultricies? Maecenas laoreet, Maecenas laoreet, sapien vel cursus
                 ultricies? Maecenas laoreet, sapien vel cursus ultricies?
@@ -148,7 +148,7 @@ const Faq = () => {
               >
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
-              <AccordionBody className="font-balsa text-[12px] z-20 mt-[-1px] !pt-0 sm:text-base  md:text-[16px] ps-6 md:ps-[50px] pe-5 md:pe-[50px] font-medium leading-[160%] text-[#fff] max-w-[880px]  pb-2  ">
+              <AccordionBody className="font-balsa text-[12px] z-20 mt-[-1px] !pt-0 sm:text-base  md:text-[16px] ps-6 md:ps-[50px] pe-5 md:pe-[50px] font-normal leading-[160%] text-[#fff] max-w-[880px]  pb-2  ">
                 sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
                 ultricies? Maecenas laoreet, Maecenas laoreet, sapien vel cursus
                 ultricies? Maecenas laoreet, sapien vel cursus ultricies?

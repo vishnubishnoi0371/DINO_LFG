@@ -4,8 +4,6 @@ import botm_hero from "../Assets/images.webp/hero_btm.webp";
 import text from "../Assets/images.webp/hero-text.webp";
 import text2 from "../Assets/images.webp/about-text.webp";
 import plane from "../Assets/images.webp/hero-plane.webp";
-// import openbtn from "../Assets/images.png/nav_line.svg";
-// import closebtn from "../Assets/images.png/close-line.svg";
 import gudda from "../Assets/images.png/utility-gudda.png";
 import smallgudda from "../Assets/images.webp/header_smallguda.webp";
 import {
@@ -27,7 +25,7 @@ const MyHeader = () => {
   };
   return (
     <div className="overflow-hidden relative bg_head min-h-screen object-cover  bg-no-repeat bg-center ">
-      <nav className=" nav_bg pt-4 md:pt-[28px]">
+      <nav className=" nav_bg pt-4 md:pt-[28px] bg-[#d6efff] ">
         <div className=" container py-[10px] sm:py-[15px] border-b-[4px] border-black rounded-[61px] bg-white  mx-auto max-w-[1132px] px-3">
           <div className=" flex items-center justify-between">
             <img

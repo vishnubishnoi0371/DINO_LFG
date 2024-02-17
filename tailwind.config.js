@@ -40,9 +40,9 @@ module.exports = {
           "100%": { transform: "translateX(0%)rotate(40deg)" },
         },
         herogudda2: {
-          "0%": { transform: "translateX(0%)rotate(40deg)" },
-          "50%": { transform: "translateX(110%)rotateY(50deg)" },
-          "100%": { transform: "translateX(0%)rotate(40deg)" },
+          "0%": { transform: "translateX(0%)rotate(10deg)" },
+          "50%": { transform: "translateX(110%)rotateY(30deg)" },
+          "100%": { transform: "translateX(0%)rotate(10deg)" },
         },
         caramdice: {
           "0%": { transform: "rotate(360deg)" },
@@ -61,7 +61,7 @@ module.exports = {
 
         fttrgudda: {
           "0%": { transform: "translateX(0%)" },
-          "100%": { transform: "translateX(-750%)rotate(30deg)" },
+          "100%": { transform: "translateX(-750%)" },
         },
         res_headg: {
           "0%": { transform: "translateX(0%)" },
