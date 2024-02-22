@@ -138,10 +138,10 @@ const MyHeader = () => {
         </div>
       </nav>
       <div className=" container mx-auto max-w-[1132px] px-3 min-h-[90vh]">
-        <div className="flex md:flex-row flex-col-reverse items-center justify-center flex-wrap  -mx-3 pt-[60px] md:pt-[130px]">
+        <div className="flex md:flex-row flex-col-reverse items-center justify-center flex-wrap  -mx-3 pt-[60px] md:pt-10 lg:pt-[130px]">
           <div className="sm:w-1/2 lg:w-1/2 px-3">
             <img
-              className=" mx-auto animate-plane md:max-w-[395px] max-w-[235px] max-h-[125px] md:max-h-[245px]"
+              className=" mx-auto animate-plane lg:max-w-[395px] lg:max-h-[235px] md:max-w-[335px] max-w-[195px] max-h-[125px] md:max-h-[245px]"
               src={plane}
               alt=""
             />
@@ -149,7 +149,7 @@ const MyHeader = () => {
 
           <div className="sm:w-1/2 lg:w-1/2 px-3">
             <img
-              className="hidden md:block mx-auto md:max-w-[398px] md:max-h-[316px] max-w-[270px] lg:mt-[-50px] max-h-[216px]"
+              className="hidden md:block mx-auto lg:max-w-[398px] lg:max-h-[316px] md:max-w-[298px] md:max-h-[216px] max-w-[270px] lg:mt-[-50px] max-h-[216px]"
               src={text}
               alt=""
             />
@@ -167,12 +167,12 @@ const MyHeader = () => {
         alt=""
       />
       <img
-        className="absolute object-cover z-20 bottom-[9%] max-w-[110px] max-h-[170px] md:max-w-[210px] md:max-h-[270px]  animate-resg  sm:animate-fttr right-[0%]"
+        className="absolute object-cover z-20 bottom-[9%] max-w-[110px] max-h-[170px] lg:max-w-[210px] lg:max-h-[270px]  animate-resg  sm:animate-fttr right-[0%]"
         src={gudda}
         alt=""
       />
       <img
-        className="absolute object-cover z-10 bottom-[17%] max-w-[80px] max-h-[115px]  md:max-w-[130px] md:max-h-[165px]  animate-headgudda2 md:animate-headgudda right-[30%]  md:right-[45%]"
+        className="absolute object-cover z-10 bottom-[17%] max-w-[80px] max-h-[115px]  lg:max-w-[130px] lg:max-h-[165px]  animate-headgudda2 md:animate-headgudda right-[30%]  md:right-[45%]"
         src={smallgudda}
         alt=""
       />
