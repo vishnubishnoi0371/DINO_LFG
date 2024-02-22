@@ -18,11 +18,11 @@ const AboutSec = () => {
             <p
               data-aos="zoom-in"
               data-aos-duration="2000"
-              className="text-white flex ms-12 sm:ms-0 items-center gap-2 font-normal font-chewy text-[42px] md:text-[64px] leading-[84px] sm:mb-5 md:mb-[48px]"
+              className="text-white flex ms-8 sm:ms-0 items-center gap-2 font-normal font-chewy text-[42px] md:text-[64px] leading-[84px] sm:mb-5 md:mb-[48px]"
             >
               About
               <span>
-                <img className="max-[500px]:w-[70%]" src={text} alt="" />
+                <img className="max-[500px]:w-[87%]" src={text} alt="" />
               </span>
             </p>
           </div>
